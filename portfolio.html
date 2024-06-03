@@ -11,11 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header> 
+      <div class="container">
+        <div class="header-inner">
       <a class="logo" href="./index.html">
         <span class="web">Web</span><span class="header-studio">Studio</span></a
       >
@@ -44,10 +47,13 @@
           </li>
         </ul>
       </address>
+      </div>
+    </div>
     </header>
     <main>
       <section>
-        <h2 class="title-benefits">Наші роботи</h2>
+        <div class="container">
+        <h2 class="visually-hidden">Наші роботи</h2>
         <ul>
           <li><button class="filter" type="button">Усі</button></li>
           <li><button class="filter" type="button">Веб-сайти</button></li>
@@ -55,9 +61,11 @@
           <li><button class="filter" type="button">Дизайн</button></li>
           <li><button class="filter" type="button">Маркетинг</button></li>
         </ul>
+        <div>
       </section>
       <section>
-        <h2 class="title-benefits">Карточки</h2>
+        <div class="container">
+        <h2 class="visually-hidden">Карточки</h2>
         <ul>
           <li>
             <img
@@ -133,9 +141,11 @@
             <p class="project">Додаток</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
       <a class="logo" href="./index.html">
         <span class="web">Web</span><span class="footer-studio">Studio</span></a
       >
@@ -154,6 +164,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
